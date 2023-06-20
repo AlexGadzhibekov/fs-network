@@ -5,6 +5,7 @@ import "dotenv/config";
 
 import viewsRouter from "./routes/views.js";
 import userRouter from "./routes/user.js";
+import postsRouter from "./routes/posts.js";
 
 const PORT = 8080;
 
@@ -30,6 +31,7 @@ app.use(express.json());
 
 app.use("/", viewsRouter);
 app.use("/api/user", userRouter);
+app.use("/api/posts", postsRouter);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port: ${PORT}...`);
