@@ -26,3 +26,16 @@
 .controlPanel{
     
 }
+.header__button{
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    transition: 0.2s;
+}
+.header__button:hover{
+    transform: translateY(-2px);
+}
+.header__button:active{
+    transform: translateY(2px);
+}
