@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+}
+#post__container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.post{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    aspect-ratio: 1/1;
+}
+.post__top{
+
+}
+.post__avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.post__nickname{
+
+}
+.post__imageWraper{
+    width: 100%;
+}
+.post__bottom{
+
+}
+.post__likes{
+
+}
+.post__content{
+
+}
+.image-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttons{
+    width: max-content;
+    margin: 0 auto;
+}
+.btn{
+    width: max-content;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+}
